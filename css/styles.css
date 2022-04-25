@@ -1,0 +1,137 @@
+/* --------------WebStudio------------------ */
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --accent-color: #2196f3;
+    --titles-color: #212121;
+    --contacts-color: rgba(255,255,255,0.6);
+    --text-logo-color: #000000;
+    --text-description-color: #757575;
+    --text-white-color: #ffffff;
+    --background-button-color: #188ce8;
+    --background-color: #2f303a;
+}
+
+body{
+    color: var(--titles-color);
+    font-family: var(--main-font);
+}
+button{
+    font-family: inherit;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.list{
+    list-style: none;
+}
+
+/* -----------------------Header---------------------------- */
+.page-header {}
+
+.navigation {}
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.accent{
+    color:#000000;
+}  
+.link:hover,
+.link:focus {
+color:var(--accent-color)
+}
+/* --------------------Лого у футері ----------*/
+.footer-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    /* identical to box height */
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.footer-accent{
+    color: #ffffff;
+    background-color:var(--background-color) ;
+}
+/* ----------------------------------------------- */
+.list {}
+
+.menu-item {}
+
+.menu-link {}
+
+.header-contacts {}
+
+.header-contacts-item {}
+
+.header-mailto {}
+
+.contact-phone {}
+
+/* Hero */
+
+.hero {}
+
+.modal {}
+
+.btn {}
+
+
+
+
+/*---------------Our team------*/
+.employees {
+    background-color: #F5F4FA;
+}
+.employees-card {
+    background-color: white;
+}
+.portfolio {
+    font-family: ;
+    font-weight: ;
+    font-size: ;
+}
+
+.menu {}
+
+.employees-card {}
+
+.portfolio-command {}
+
+.command-profession {}
+
+
+/* ----------------------PORTFOLIO----------------- */
+
+.filters:btn-filters{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #FFFFFF;
+}
+.btn-filters:hover{ 
+    color:var(--titles-color);
+    background-color: var(--background-color);
+}
+.btn-filters:focus{ 
+    color: var(--text-white-color);
+    background-color: var(--background-button-color);
+}
